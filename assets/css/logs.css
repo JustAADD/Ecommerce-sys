@@ -1,0 +1,191 @@
+/* Fonts */
+:root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+}
+
+/* Colors */
+:root {
+  --color-default: #222222;
+  --color-primary: #008374;
+  --color-secondary: #f85a40;
+  --color-third: #000000;
+  --color-fourth: #ff0000;
+  --color-fifth: #f1ede8;
+  --color-six: #e8ae97;
+  --color-seven: #755b33;
+}
+
+/* Smooth scroll behavior */
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: var(--font-secondary);
+  color: var(--color-default);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/model-2.jpg);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: inherit;
+  height: inherit;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-seven);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+
+.container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  position: absolute;
+  max-width: 430px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 6px;
+  background: white;
+}
+
+.form.signup {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.forms.show-signup .form.signup {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.forms.show-signup .form.login {
+  opacity: 0;
+  pointer-events: none;
+}
+
+header {
+  font-size: 28px;
+  font-weight: 600;
+  color: #232836;
+  text-align: center;
+}
+
+form {
+  margin-top: 30px;
+}
+
+
+.form .field {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.field input,
+.field button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 6px;
+}
+
+.field input {
+  outline: none;
+  padding: 0 15px;
+  border: 1px solid#CACACA;
+}
+
+.field input:focus {
+  border-bottom-width: 2px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #8b8b8b;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.field button {
+  color: #fff;
+  background-color: black;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.field button:hover {
+  background-color: gray;
+  color: black;
+}
+
+.form-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-link span,
+.form-link a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #232836;
+}
+
+.form-link h1 {
+  margin-top: 25%;
+}
+
+.form-link p {
+  margin-top: 5%;
+}
+
+#icon {
+  width: 30px;
+  height: 20px;
+  margin-top: 10%;
+  margin-left: -55%;
+}
+
+#em {
+  font-size: 13px;
+  margin-top: -7%;
+}
+
+.form a {
+  color: #0171d3;
+  text-decoration: none;
+}
+
+.form-content a:hover {
+  text-decoration: underline;
+}

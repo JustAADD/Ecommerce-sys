@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url(fonts\Lato-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "FrankRuhlLibre-Bold";
+  src: url(fonts\FrankRuhlLibre-Bold.ttf) format('truetype');
+  font-weight: normal;
+}
+
+/*navbar - about and all shop category in here*/
+.navbar {
+  background-color: black;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.navbar.black {
+  background-color: black;
+  transition: 0.8s;
+}
+
+.container img {
+  margin-left: 100px;
+}
+
+.container-fluid {
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
+  margin-right: 100px;
+}
+
+.container ul li a {
+  color: white;
+  font-family: "Lato-Bold", sans-serif;
+  font-size: small;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.container ul {
+  margin-left: 30%;
+}
+
+.navbar-nav a:hover {
+  color: rgb(255, 0, 0);
+  transition-duration: 0.5s;
+}
+
+.navbar-nav a:active {
+  color: rgb(255, 2, 2);
+  transition-duration: 0.5s;
+}
+
+
+.icon ion-icon {
+  color: white;
+  font-size: 21px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.icon ion-icon:hover {
+  color: rgb(255, 2, 2);
+  border-color: red;
+  background-color: black;
+  transition-duration: 0.5s;
+}
+
+
+/*dresses category*/
+
+#Discounted-Price {
+  color: red;
+}
+
+#Card-Dress p {
+  font-family: "FrankRuhlLibre-Bold";
+}
+
+#Card-Dress {
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+/*Active Wear category*/
+#Card-Active-Wear p {
+  font-family: "FrankRuhlLibre-Bold";
+}
+
+#Card-Active-Wears {
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+/*Topscategory*/
+#Card-Tops p {
+  font-family: "FrankRuhlLibre-Bold";
+}
+
+#Card-Tops {
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+/*Accessories & Jewelry*/
+#Card-AccJew p {
+  font-family: "FrankRuhlLibre-Bold";
+}
+
+#Card-AccJew {
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.modal-header {
+  width: 100%;
+}
+
+.modal-body img {
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  margin-left: -30%;
+}
+
+#addtocart {
+  margin-left: -180px;
+  width: 50%;
+}
+
+#details {
+  margin-top: 5%;
+}
+
+#details p {
+  margin-left: -60%;
+}
+
+#price{
+  margin-left: -38%;
+}
+
+.form-select {
+  margin-top: -15px;
+  margin-left: -59%;
+}
+
+.modal-footer p {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  color: rgb(87, 87, 87);
+}
+
+#Discounted {
+  margin-left: -122%;
+  color: red;
+}
+
+.btn-close {
+
+  color: rgb(47, 47, 47);
+}

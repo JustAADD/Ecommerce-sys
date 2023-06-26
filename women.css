@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+
+  .carousel {
+    margin-top: 50px;
+  }
+
+  #navPros {
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+ 
+
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px){
+
+  
+  #navPro{
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  #nav-tab{
+    margin-left: 100px;
+  }
+
+}
+
